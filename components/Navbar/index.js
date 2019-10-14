@@ -1,7 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
-import '../../scss/style.scss';
-//import './navbar.css';
+import './Navbar.scss';
 
 const index = () => {
   return (
@@ -15,14 +14,6 @@ const index = () => {
       <Link href='/contacts'>
         <a href=''>Contacts</a>
       </Link>
-      {/* <style jsx global>{`
-        a {
-          margin-right: 10px;
-          text-decoration: none;
-          link-style: none;
-          color: red;
-        }
-      `}</style> */}
     </nav>
   );
 };

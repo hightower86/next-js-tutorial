@@ -13,61 +13,61 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _scss_style_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../scss/style.scss */ "./scss/style.scss");
-/* harmony import */ var _scss_style_scss__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_scss_style_scss__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _Navbar_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Navbar.scss */ "./components/navbar/Navbar.scss");
+/* harmony import */ var _Navbar_scss__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_Navbar_scss__WEBPACK_IMPORTED_MODULE_2__);
 var _jsxFileName = "/Users/macbook/Desktop/KODING/projects/next.js/next-tutorial/components/navbar/index.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
- //import './navbar.css';
+
 
 var index = function index() {
   return __jsx("nav", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 8
+      lineNumber: 7
     },
     __self: this
   }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
     href: "/",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 9
+      lineNumber: 8
     },
     __self: this
   }, __jsx("a", {
     href: "",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 10
+      lineNumber: 9
     },
     __self: this
   }, "Home")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
     href: "/about",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 12
+      lineNumber: 11
     },
     __self: this
   }, __jsx("a", {
     href: "",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13
+      lineNumber: 12
     },
     __self: this
   }, "About")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
     href: "/contacts",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 15
+      lineNumber: 14
     },
     __self: this
   }, __jsx("a", {
     href: "",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 16
+      lineNumber: 15
     },
     __self: this
   }, "Contacts")));
@@ -10325,9 +10325,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _components_navbar__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/navbar */ "./components/navbar/index.js");
+/* harmony import */ var _scss_contacts_scss__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../scss/contacts.scss */ "./scss/contacts.scss");
+/* harmony import */ var _scss_contacts_scss__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_scss_contacts_scss__WEBPACK_IMPORTED_MODULE_3__);
 var _jsxFileName = "/Users/macbook/Desktop/KODING/projects/next.js/next-tutorial/pages/contacts.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
 
 
 
@@ -10350,14 +10353,47 @@ var Contacts = function Contacts() {
       lineNumber: 7
     },
     __self: this
-  }, "Contacts page"));
+  }, "Contacts page"), __jsx("div", {
+    className: "box",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 8
+    },
+    __self: this
+  }, __jsx("div", {
+    className: "pic",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 9
+    },
+    __self: this
+  }), __jsx("div", {
+    className: "content",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 10
+    },
+    __self: this
+  }, __jsx("h3", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11
+    },
+    __self: this
+  }, "box"), __jsx("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 12
+    },
+    __self: this
+  }, "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex officiis nihil molestiae quos aspernatur voluptatibus perferendis optio natus"))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Contacts);
 
 /***/ }),
 
-/***/ 4:
+/***/ 5:
 /*!*************************************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Fcontacts&absolutePagePath=%2FUsers%2Fmacbook%2FDesktop%2FKODING%2Fprojects%2Fnext.js%2Fnext-tutorial%2Fpages%2Fcontacts.js ***!
   \*************************************************************************************************************************************************************************/
@@ -10380,5 +10416,5 @@ module.exports = dll_b35e09dc2ca94ac6d9c1;
 
 /***/ })
 
-},[[4,"static/runtime/webpack.js","styles"]]]);
+},[[5,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=contacts.js.map

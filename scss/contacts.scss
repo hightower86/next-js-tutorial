@@ -1,0 +1,27 @@
+.box {
+  background-color: rgb(143, 187, 245);
+  padding: 10px;
+  min-height: 40vh;
+  width: 40vw;
+  border: 1px solid #000;
+  border-radius: 0.5rem;
+  display: flex;
+  //flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+}
+.pic {
+  min-width: 100px;
+  min-height: 100px;
+  background-color: #888;
+  border: 1px solid #000;
+  border-radius: 5px;
+}
+.content {
+  // display: flex;
+  // flex-direction: column;
+  text-align: center;
+  display: block;
+  align-items: center;
+  margin: 5px;
+}

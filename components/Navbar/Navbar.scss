@@ -1,0 +1,16 @@
+nav {
+  font-family: Verdana, Geneva, sans-serif;
+  background-color: rgba(206, 206, 255, 0.616);
+  padding: 10px;
+  a {
+    margin-right: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-bottom: 3px;
+
+    &:hover {
+      color: #999;
+      border-bottom: 2px solid #000;
+    }
+  }
+}

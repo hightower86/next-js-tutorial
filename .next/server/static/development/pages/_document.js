@@ -1220,6 +1220,7 @@ var _jsxFileName = "/Users/macbook/Desktop/KODING/projects/next.js/next-tutorial
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
  //import React, { Component } from 'react';
+//import '../scss/style.scss';
 
 class MyDocument extends next_document__WEBPACK_IMPORTED_MODULE_1___default.a {
   render() {
@@ -1235,15 +1236,7 @@ class MyDocument extends next_document__WEBPACK_IMPORTED_MODULE_1___default.a {
         lineNumber: 8
       },
       __self: this
-    }, __jsx("link", {
-      rel: "stylesheet",
-      href: "/_next/static/style.css",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 9
-      },
-      __self: this
-    })), __jsx("body", {
+    }), __jsx("body", {
       __source: {
         fileName: _jsxFileName,
         lineNumber: 12
